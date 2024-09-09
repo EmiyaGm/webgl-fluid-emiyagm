@@ -1,7 +1,7 @@
 {
   "name": "webgl-fluid-emiyagm",
   "PascalCasedName": "WebGLFluidEmiyaGm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "ESM support for https://github.com/PavelDoGreat/WebGL-Fluid-Simulation.",
   "author": {
@@ -20,15 +20,15 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/webgl-fluid.mjs",
-      "require": "./dist/webgl-fluid.umd.js"
+      "import": "./dist/webgl-fluid-emiyagm.mjs",
+      "require": "./dist/webgl-fluid-emiyagm.umd.js"
     },
     "./*": "./*"
   },
-  "main": "./dist/webgl-fluid.umd.js",
-  "module": "./dist/webgl-fluid.mjs",
-  "unpkg": "./dist/webgl-fluid.umd.js",
-  "jsdelivr": "./dist/webgl-fluid.umd.js",
+  "main": "./dist/webgl-fluid-emiyagm.umd.js",
+  "module": "./dist/webgl-fluid-emiyagm.mjs",
+  "unpkg": "./dist/webgl-fluid-emiyagm.umd.js",
+  "jsdelivr": "./dist/webgl-fluid-emiyagm.umd.js",
   "files": [
     "dist",
     "docs"
