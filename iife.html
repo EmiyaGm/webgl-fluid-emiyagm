@@ -8,10 +8,15 @@
   </head>
 
   <body>
-    <canvas style="width: 100vw; height: 100vh; background: rgb(0, 0, 0)" />
+    <canvas
+      style="width: 100vw; height: 100vh; background: rgb(255, 255, 255)"
+    />
     <script src="./dist/webgl-fluid.umd.js"></script>
     <script>
-      WebGLFluid(document.querySelector('canvas'))
+      WebGLFluid(document.querySelector('canvas'), {
+        BACK_COLOR: { r: 255, g: 255, b: 255 },
+        SPLAT_RADIUS: 0.1,
+      })
     </script>
   </body>
 </html>

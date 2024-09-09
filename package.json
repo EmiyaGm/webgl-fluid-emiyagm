@@ -1,15 +1,15 @@
 {
-  "name": "webgl-fluid",
-  "PascalCasedName": "WebGLFluid",
-  "version": "0.3.8",
+  "name": "webgl-fluid-emiyagm",
+  "PascalCasedName": "WebGLFluidEmiyaGm",
+  "version": "0.0.1",
   "private": false,
   "description": "ESM support for https://github.com/PavelDoGreat/WebGL-Fluid-Simulation.",
   "author": {
-    "name": "Cloyd Lau",
-    "url": "https://github.com/cloydlau"
+    "name": "EmiayGm",
+    "url": "https://github.com/EmiayGm"
   },
   "license": "MIT",
-  "repository": "https://github.com/cloydlau/webgl-fluid",
+  "repository": "https://github.com/EmiayGm/webgl-fluid-emiyagm",
   "keywords": [
     "background",
     "fluid",

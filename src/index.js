@@ -61,6 +61,8 @@ export default function (el, config) {
     SUNRAYS: true,
     SUNRAYS_RESOLUTION: 196,
     SUNRAYS_WEIGHT: 1.0,
+    RGB_DATA: 0.15,
+    HSV_DATA: [1, 0, 1.0, 1.0],
     ...config,
   }
 
@@ -1572,10 +1574,10 @@ export default function (el, config) {
   }
 
   function generateColor() {
-    const c = HSVtoRGB(Math.random(), 1.0, 1.0)
-    c.r *= 0.15
-    c.g *= 0.15
-    c.b *= 0.15
+    const c = HSVtoRGB(Math.random() * config.HSV_DATA[0] + config.HSV_DATA[1], config.HSV_DATA[2], config.HSV_DATA[3])
+    c.r *= config.RGB_DATA
+    c.g *= config.RGB_DATA
+    c.b *= config.RGB_DATA
     return c
   }
 
